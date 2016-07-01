@@ -1,0 +1,1 @@
+include ':app', ':com.dzartek.javajokes', ':androidlib', ':gce_backend'
