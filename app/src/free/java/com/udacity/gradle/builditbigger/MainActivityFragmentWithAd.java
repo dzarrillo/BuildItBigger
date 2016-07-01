@@ -1,7 +1,6 @@
 package com.udacity.gradle.builditbigger;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,10 +8,11 @@ import android.view.ViewGroup;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
+
 /**
  * Created by dzarrillo on 6/30/2016.
  */
-public class MainActivityFragmentWithAd extends Fragment {
+public class MainActivityFragmentWithAd extends MainActivityFragment {
     public MainActivityFragmentWithAd(){}
 
     @Override
