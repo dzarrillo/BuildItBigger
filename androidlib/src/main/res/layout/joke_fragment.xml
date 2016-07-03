@@ -9,17 +9,18 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/my_new_joke"
         android:id="@+id/textViewTitle"
-        android:layout_alignParentTop="true"
-        android:layout_alignEnd="@+id/textViewJoke" />
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"/>
 
     <TextView
         android:id="@+id/textViewJoke"
+        android:text="This is a joke"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginTop="94dp" />
+        android:layout_below="@+id/textViewTitle"
+        android:layout_alignStart="@+id/textViewTitle"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="15dp" />
 
 
 
