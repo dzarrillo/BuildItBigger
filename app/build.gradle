@@ -50,7 +50,7 @@ dependencies {
     // Added for AdMob
     compile project(':com.dzartek.javajokes')
     compile project(':androidlib')
-    compile 'com.google.android.gms:play-services:9.0.2'
+    freeCompile 'com.google.android.gms:play-services:9.0.2'
     compile project(path: ':gce_backend', configuration: 'android-endpoints')
     compile 'com.android.support:multidex:1.0.1'
 
